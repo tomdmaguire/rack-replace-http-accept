@@ -1,0 +1,6 @@
+= Rack Replace HTTP Accept
+
+Example usage:
+
+  use Rack::ReplaceHttpAccept, /application\/vnd\.mycompany\.myapp-v[0-9]+\+json/ => 'application/json',
+                               /application\/vnd\.mycompany\.myapp-v[0-9]+\+xml/  => 'application/xml'
