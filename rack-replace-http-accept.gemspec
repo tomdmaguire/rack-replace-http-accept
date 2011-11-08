@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files = %w[
     Gemfile
     rack-replace-http-accept.gemspec
-    lib/rack/rack_replace_http_accept.rb
+    lib/rack/replace_http_accept.rb
   ]
 
 end
