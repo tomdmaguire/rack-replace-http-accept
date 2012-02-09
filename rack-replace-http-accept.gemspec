@@ -8,7 +8,6 @@ Gem::Specification.new do |s|
   s.description = ""
   s.homepage    = 'http://github.com/tomglue/rack-replace-http-accept'
   s.files = %w[
-    Gemfile
     rack-replace-http-accept.gemspec
     lib/rack/replace_http_accept.rb
   ]
